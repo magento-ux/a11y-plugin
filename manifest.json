@@ -1,0 +1,36 @@
+{
+  "id": "71b5fc20",
+  "name": "Accessibility Annotation",
+  "description": "Accesibility annotation plugin",
+  "author": "Eugene Bannykh <ybannykh@adobe.com>",
+  "version": "0.0.1",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "icons": [
+    {
+      "path": "images/icon@1x.png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "images/icon@2x.png",
+      "width": 48,
+      "height": 48
+    }
+  ],
+  "uiEntryPoints": [
+    {
+      "label": "Tab order",
+      "type": "menu",
+      "commandId": "createTabs",
+      "shortcut": { "mac": "Cmd+T", "win": "Ctrl+T" }
+    },
+    {
+      "label": "Heading levels",
+      "type": "menu",
+      "commandId": "createHeadings"
+    }
+  ]
+}
